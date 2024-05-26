@@ -1,6 +1,11 @@
 * {
     margin: 0;
     padding: 0;
+   
+}
+.see_all_text a {
+    text-decoration: none;
+    color:lightcoral;
 }
 .navbar {
     display: flex;
@@ -27,5 +32,81 @@ ul li:hover {
 }
 .container {
     width: 700px;
-    background-color: beige;
+}
+.search_filter {
+    padding: 15px 400px;
+    display: flex;
+    justify-content: space-around ;
+    align-items: center;
+    background-color:seashell;
+    border-radius: 50px;
+}
+
+.city_select {
+    padding: 10px 10px;
+    border-radius: 20px;
+    outline: none;
+    border-style: none;
+}
+.box_container {
+    margin-top: 30px;
+}
+.box_text {
+    display: flex;
+    justify-content: space-between;
+    /* font-weight: 600; */
+}
+.explore_text {
+    font-size: 20px;
+    font-weight: 600;
+}
+.boxes_container {
+    display: flex;
+}
+.boxes {
+    margin: 0px 10px;
+}
+.box_txt p {
+    font-weight: 500;
+}
+.box_photo {
+    width: 100%;
+    height: 180px;
+    
+}
+.boxes1bhk {
+    width: 280px;
+}
+.house_photo {
+    width: 100%;
+    height: 100%;
+    border-radius:10px;
+}
+.big_scale:hover {
+    transition-duration: 1s;
+    transform: scale(1.1);
+}
+.builder_text {
+    display: flex;
+    justify-content: space-between;
+}
+.builders_container {
+    display: flex;
+}
+.builder_box {
+    padding: 0px 10px;
+}
+.builder_photos {
+    width:280px;
+    height: 200px;
+}
+.groups_photos {
+    width: 100%;
+    height: 100%;
+    border-radius: 10px;
+    object-fit: cover;
+}
+.big_scale:hover {
+    transition-duration: 1s;
+    transform: scale(1.1);
 }
