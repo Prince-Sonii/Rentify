@@ -1,0 +1,31 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+.navbar {
+    display: flex;
+    justify-content:space-around;
+    align-items: center;
+    background-color: whitesmoke;
+}
+.nav_logo {
+    padding-left: 6%;
+}
+.nav_list ul {
+    display: flex;
+
+}
+ul li {
+    padding: 0px 15px;
+    font-weight: 600;
+}
+ul li:hover {
+    cursor: pointer;
+}
+.nav_drop {
+    padding-right: 6%;
+}
+.container {
+    width: 700px;
+    background-color: beige;
+}
