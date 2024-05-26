@@ -6,6 +6,7 @@
     <title>Rentify</title>
     <link rel="stylesheet" href="style.css">
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css" integrity="sha512-SnH5WK+bZxgPHs44uWIX+LLJAJ9/2PkPKZ5QiAj6Ta86w+fsb2TkcmfRyVX3pBnMFcV7oQPJkl9QevSCWr3W6A==" crossorigin="anonymous" referrerpolicy="no-referrer" />
 </head>
 <body>
 <nav class="navbar">
@@ -31,23 +32,116 @@
             <input type="text" name="" id="" class="city_select" placeholder="city">
         </div>
         <div class="">
-            <select name="Type" id="">
-             <option value="flat">Flat</option>
-             <option value="flat">House/Villa</option>
-             <option value="flat">1 Bhk</option>
-             <option value="flat">2 Bhk</option>
-             <option value="flat">3 Bhk</option>
-             <option value="flat">4 Bhk</option>
-             <option value="flat">5 Bhk</option>
+            <select name="type" id="" class="city_select">
+                <option value="" disabled selected hidden>Type</option>
+                <option value="flat">Flat</option>
+                <option value="flat">House/Villa</option>
+                <option value="flat">1 Bhk</option>
+                <option value="flat">2 Bhk</option>
+                <option value="flat">3 Bhk</option>
+                <option value="flat">4 Bhk</option>
+                <option value="flat">5 Bhk</option>
             </select>
         </div>
         <div class="submit_search">
-            <button type="submit">submit</button>
+            <button type="submit" class="city_select">submit</button>
         </div>
           
     </section>
+    <section>
+        <div class="box_container">
+            <div class="box_text">
+                <div class="exp_text">
+                    <p class="explore_text">explore categories</p>
+                </div>
+                <div class="see_all_text ">
+                    <a href="">see all properties <i class="fa-solid fa-arrow-right"></i></a>
+                </div>
+            </div>
+            <div class="boxes_container">
+                <div class="boxes1 boxes big_scale  ">
+                    <div class="box_photo ">
+                        <a href=""><img src="images/house.jpg" alt="" class="house_photo"></a>
+                    </div>
+                    <div class="box_txt">
+                        <p>House/Villa</p>
+                    </div>
+                </div>
+                <div class="boxes2 boxes big_scale">
+                    <div class="box_photo ">
+                        <a href=""><img src="images/flat.jpg" alt="" class="house_photo"></a>
+                    </div>
+                    <div class="box_txt">
+                        <p>Flats</p>
+                    </div>
+                 </div>
+                <div class="boxes1bhk boxes big_scale">
+                    <div class="box_photo">
+                        <a href=""><img src="images/luxe1.jpg" alt="" class="house_photo"></a>
+                    </div>
+                    <div class="box_txt">
+                        <p>Luxury Homes</p>
+                    </div>
+                 </div>
+                <div class="boxes1bhk boxes big_scale">
+                    <div class="box_photo">
+                        <a href=""><img src="images/budget1.png" alt="" class="house_photo"></a>
+                    </div>
+                    <div class="box_txt">
+                        <p>Budget Homes</p>
+                    </div>
+                 </div>
+            </div>
+        </div>
+    </section>
+    <section>
+        <div class="builders">
+            <div class="builder_text">
+                <div class="exp_txt ">
+                    <p class="explore_text">explore property by builders groups</p>
+                </div>
+                <div class="see_all_text ">
+                    <a href="">see all groups <i class="fa-solid fa-arrow-right"></i></a>
+                </div>
+            </div>
+            <div class="builders_container">
+                <div class="builder_box 1 big_scale">
+                    <div class="builder_photos  ">
+                        <a href=""><img src="images/sgroup.jpg" alt="" class="groups_photos"></a>
+                    </div>
+                    <div class="group_name box_txt">
+                        <p>Singhania Group</p>
+                    </div>
+                </div>
+                <div class="builder_box 2 big_scale">
+                    <div class="builder_photos  ">
+                        <a href=""><img src="images/platinum.jpg" alt="" class="groups_photos "></a>
+                    </div>
+                    <div class="group_name box_txt">
+                        <p>Platinum Group</p>
+                    </div>
+                </div>
+                <div class="builder_box 3 big_scale">
+                    <div class="builder_photos  ">
+                        <a href=""><img src="images/sbg.png" alt="" class="groups_photos "></a>
+                    </div>
+                    <div class="group_name box_txt">
+                        <p>SBG Group</p>
+                    </div>
+                </div>
+                <div class="builder_box 4 big_scale">
+                    <div class="builder_photos  ">
+                       <a href=""> <img src="images/nsb.jpg" alt="" class="groups_photos "></a>
+                    </div>
+                    <div class="group_name box_txt">
+                        <p>NSB Group</p>
+                    </div>
+                </div>
+            </div>
+
+        </div>
+    </section>
 </main> 
 </body>
-<script src="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css"></script>
 <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM" crossorigin="anonymous"></script>
 </html>
